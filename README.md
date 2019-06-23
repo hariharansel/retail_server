@@ -10,9 +10,10 @@ This Spring Boot application is used to generate bill of the item based on the u
 * [git](https://git-scm.com/) - Free and Open-Source distributed version control system
 * [Swagger](https://swagger.io/) - Open-Source software framework backed by a large ecosystem of tools that helps developers design, build, document, and consume RESTful Web services.
 
-## Run Test
+## Run Test and Code coverage report
 
-- mvn test
+- mvn clean test
+- Access the code coverage report target/site/jacoco/index.html
 
 ## Compile and package
 
