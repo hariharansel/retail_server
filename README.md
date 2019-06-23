@@ -24,6 +24,12 @@ This Spring Boot application is used to generate bill of the item based on the u
 - cd target
 - java -jar retail-server-0.0.1-SNAPSHOT.jar
 
+## Sample Request and Response
+
+- Access URL: http://localhost:9090/swagger-ui.html#!/billing45controller/getBillDetailsUsingGET once application started.
+- user_id=1 and item_id=1 in request to generate bill.
+- Please refer screenshot in git.
+
 ## packages
 
 - `entities` — to hold our entities;
